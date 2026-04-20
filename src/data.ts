@@ -1,0 +1,135 @@
+export const PLAYERS = [
+  {
+    rank: 10,
+    name: "Jasprit Bumrah",
+    team: "Mumbai Indians",
+    teamAbbr: "MI",
+    primaryColor: "#004B8D",
+    badgeColors: "linear-gradient(135deg, #004B8D, #003366)",
+    bgGradient: "linear-gradient(135deg, rgba(0, 75, 141, 0.7) 0%, rgba(0, 48, 87, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(0, 75, 141, 0.6) 0%, transparent 70%)",
+    label: "Pace Spearhead",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/02/Jasprit_Bumrah_in_PMO_New_Delhi.jpg",
+    stats: { main: "5", matches: "4", avg: "19.40", econ: "6.80", best: "3/14", impact: "240.2" }
+  },
+  {
+    rank: 9,
+    name: "Sunil Narine",
+    team: "Kolkata Knight Riders",
+    teamAbbr: "KKR",
+    primaryColor: "#70458F",
+    badgeColors: "linear-gradient(135deg, #70458F, #4B0082)",
+    bgGradient: "linear-gradient(135deg, rgba(112, 69, 143, 0.7) 0%, rgba(75, 0, 130, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(112, 69, 143, 0.6) 0%, transparent 70%)",
+    label: "Mystery Spinner",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sunil_Narine.jpg",
+    stats: { main: "6", matches: "6", avg: "24.50", econ: "6.12", best: "2/18", impact: "247.5" }
+  },
+  {
+    rank: 8,
+    name: "Kagiso Rabada",
+    team: "Gujarat Titans",
+    teamAbbr: "GT",
+    primaryColor: "#1c3d5a",
+    badgeColors: "linear-gradient(135deg, #1c3d5a, #0b1c2c)",
+    bgGradient: "linear-gradient(135deg, rgba(28, 61, 90, 0.7) 0%, rgba(11, 28, 44, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(28, 61, 90, 0.6) 0%, transparent 70%)",
+    label: "Lethal Strike Bowler",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/08/Rabada.jpg",
+    stats: { main: "7", matches: "5", avg: "21.30", econ: "8.15", best: "3/22", impact: "223.0" }
+  },
+  {
+    rank: 7,
+    name: "Krunal Pandya",
+    team: "Royal Challengers Bangalore",
+    teamAbbr: "RCB",
+    primaryColor: "#dc2626",
+    badgeColors: "linear-gradient(135deg, #dc2626, #b91c1c)",
+    bgGradient: "linear-gradient(135deg, rgba(220, 38, 38, 0.7) 0%, rgba(153, 27, 27, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(220, 38, 38, 0.6) 0%, transparent 70%)",
+    label: "All-Round Performer",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Krunal_Pandya_and_Hardik_Pandya_%28cropped%29_%28cropped%29.jpg",
+    stats: { main: "8", matches: "6", avg: "19.80", econ: "7.45", best: "3/11", impact: "210.2" }
+  },
+  {
+    rank: 6,
+    name: "Jofra Archer",
+    team: "Rajasthan Royals",
+    teamAbbr: "RR",
+    primaryColor: "#ec4899",
+    badgeColors: "linear-gradient(135deg, #ec4899, #be185d)",
+    bgGradient: "linear-gradient(135deg, rgba(236, 72, 153, 0.7) 0%, rgba(190, 24, 93, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(236, 72, 153, 0.6) 0%, transparent 70%)",
+    label: "Express Pace",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/de/Jofra_Archer_%283%29.jpg",
+    stats: { main: "8", matches: "6", avg: "22.10", econ: "7.90", best: "2/15", impact: "251.5" }
+  },
+  {
+    rank: 5,
+    name: "Bhuvneshwar Kumar",
+    team: "Royal Challengers Bangalore",
+    teamAbbr: "RCB",
+    primaryColor: "#dc2626",
+    badgeColors: "linear-gradient(135deg, #dc2626, #b91c1c)",
+    bgGradient: "linear-gradient(135deg, rgba(220, 38, 38, 0.7) 0%, rgba(153, 27, 27, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(220, 38, 38, 0.6) 0%, transparent 70%)",
+    label: "Swing Master",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bhuvneshwar_kumar_With_Rashid_Zirak_%28Bhuvneshwar_Kumar_cropped%29.jpg/500px-Bhuvneshwar_kumar_With_Rashid_Zirak_%28Bhuvneshwar_Kumar_cropped%29.jpg",
+    stats: { main: "10", matches: "6", avg: "18.50", econ: "6.95", best: "4/24", impact: "223.7" }
+  },
+  {
+    rank: 4,
+    name: "Ravi Bishnoi",
+    team: "Rajasthan Royals",
+    teamAbbr: "RR",
+    primaryColor: "#ec4899",
+    badgeColors: "linear-gradient(135deg, #ec4899, #be185d)",
+    bgGradient: "linear-gradient(135deg, rgba(236, 72, 153, 0.7) 0%, rgba(190, 24, 93, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(236, 72, 153, 0.6) 0%, transparent 70%)",
+    label: "Wrist Spin Prodigy",
+    imageUrl: "https://images.unsplash.com/photo-1540747913346-19e32fc3e620?auto=format&fit=crop&q=80&w=1000",
+    stats: { main: "10", matches: "6", avg: "16.40", econ: "7.10", best: "3/18", impact: "219.0" }
+  },
+  {
+    rank: 3,
+    name: "Prince Yadav",
+    team: "Lucknow Super Giants",
+    teamAbbr: "LSG",
+    primaryColor: "#0284c7",
+    badgeColors: "linear-gradient(135deg, #0284c7, #0369a1)",
+    bgGradient: "linear-gradient(135deg, rgba(2, 132, 199, 0.7) 0%, rgba(3, 105, 161, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(2, 132, 199, 0.6) 0%, transparent 70%)",
+    label: "Breakthrough Star",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Prince_Yadav.png",
+    stats: { main: "11", matches: "6", avg: "17.18", econ: "8.05", best: "4/32", impact: "296.5" }
+  },
+  {
+    rank: 2,
+    name: "Prasidh Krishna",
+    team: "Gujarat Titans",
+    teamAbbr: "GT",
+    primaryColor: "#1c3d5a",
+    badgeColors: "linear-gradient(135deg, #1c3d5a, #0b1c2c)",
+    bgGradient: "linear-gradient(135deg, rgba(28, 61, 90, 0.7) 0%, rgba(11, 28, 44, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(28, 61, 90, 0.6) 0%, transparent 70%)",
+    label: "Pace Engine",
+    imageUrl: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&q=80&w=1000",
+    stats: { main: "11", matches: "5", avg: "16.72", econ: "7.88", best: "4/20", impact: "258.7" }
+  },
+  {
+    rank: 1,
+    name: "Anshul Kamboj",
+    team: "Chennai Super Kings",
+    teamAbbr: "CSK",
+    primaryColor: "#FFD700",
+    badgeColors: "linear-gradient(135deg, #FFD700, #FFA500)",
+    bgGradient: "linear-gradient(135deg, rgba(255, 215, 0, 0.7) 0%, rgba(255, 180, 0, 0.5) 100%)",
+    glowGradient: "radial-gradient(ellipse at center bottom, rgba(255, 215, 0, 0.6) 0%, transparent 70%)",
+    label: "Leading Wicket Taker",
+    imageUrl: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&q=80&w=1000",
+    stats: { main: "13", matches: "6", avg: "16.23", econ: "7.52", best: "5/25", impact: "278.6" }
+  }
+];
+
+
+

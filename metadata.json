@@ -1,0 +1,6 @@
+{
+  "name": "Remix: URL Analyzer",
+  "description": "Analyzes contents of a provided URL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
